@@ -18,6 +18,12 @@ public class QueryIndex {
         //打开本地文件
         DirectoryReader reader = DirectoryReader.open(FSDirectory.open(new File("E:\\index")));
 
+
+        System.out.println(111);
+
+
+
+
         //创建索引库搜索对象
         IndexSearcher indexSearcher=new IndexSearcher(reader);
 
