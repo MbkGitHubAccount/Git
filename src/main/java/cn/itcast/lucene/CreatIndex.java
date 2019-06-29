@@ -25,6 +25,8 @@ public class CreatIndex {
     @Test
     public  void CreadIndex() throws Exception{
 
+        System.out.println(1);
+
         //准备 索引库目录
         FSDirectory directory= FSDirectory.open(new File("E:\\index"));
         //指定分词器   此时是标准的分分词器
