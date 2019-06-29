@@ -26,6 +26,9 @@ public class CreatIndex {
     public  void CreadIndex() throws Exception{
 
         System.out.println(12313);
+        System.out.println(12313);
+        System.out.println(12313);
+        System.out.println(12313);
 
         //准备 索引库目录
         FSDirectory directory= FSDirectory.open(new File("E:\\index"));
